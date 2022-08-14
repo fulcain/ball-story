@@ -132,6 +132,7 @@ body {
     /* up */
     
     35%{
+        transform: scaleX(1);
         top: 100px;
         left: 300px;
     }
