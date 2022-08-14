@@ -13,7 +13,7 @@ body {
 
 /* box */
 .container > h2{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .box{
     background-color: rgb(153, 152, 152);
