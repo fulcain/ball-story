@@ -16,12 +16,13 @@ body {
     color: rgb(0, 0, 0);
 }
 .box{
+    cursor: pointer;
     background-color: rgb(153, 152, 152);
-    border-radius: 10px;
+    border-radius: 5px;
     position: relative;
     width: 600px;
     height: 400px;
-
+    box-shadow: 0 0 1px 10px rgb(108, 108, 108) ;
 }  
 /* object */
 #first-object{
@@ -188,7 +189,7 @@ body {
     }
     /* up */
     90%{
-        top:200px;
+        top:250px;
         left: 410px;
     }
     /* down */
