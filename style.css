@@ -78,11 +78,11 @@ body {
 }
 /* hover */
 .box:hover #first-ball{
-    animation: firstBallMovement 10s 1 linear;
+    animation: firstBallMovement 15s 1 linear;
 
 }
 .box:hover #second-ball{
-    animation: secondBallMovement 10s 1 linear;
+    animation: secondBallMovement 15s 1 linear;
 
 }
 /* animations */
@@ -146,6 +146,7 @@ body {
     }
     /* up */
     50%{
+        transform: scaleX(1);
         top:150px;
         left:400px ;
     }
