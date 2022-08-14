@@ -103,7 +103,7 @@ body {
     15%{
         top:30px;
         left:87px;
-        transform: rotate(360deg);
+        transform: rotate(180deg);
     }
     19%{
         transform: scaleX(1);
