@@ -17,7 +17,7 @@ body {
 }
 .box{
     cursor: pointer;
-    background-color: rgb(153, 152, 152);
+    background-color: rgb(255, 255, 255);
     border-radius: 5px;
     position: relative;
     width: 600px;
@@ -46,9 +46,7 @@ body {
     background-color: rgb(255, 0, 0);
 }
 /* balls */
-.box i{
-    color: white;
-}
+
 #first-ball{
     display: flex;
     align-items: center;
@@ -63,6 +61,9 @@ body {
     border-radius: 100%;
 
 }
+#first-ball i{
+    color: rgb(110, 108, 248);
+}
 #second-ball{
     display: flex;
     align-items: center;
@@ -72,12 +73,17 @@ body {
     width: 70px;
     height: 70px;
     bottom:30px;
-    right: 50px;
+    right: 40px;
     background-color: rgb(255, 51, 0);
     border-radius: 100%;
-   
+}
+#second-ball i{
+    color: rgb(242, 111, 78);
 }
 /* hover */
+.box:hover{
+    box-shadow: 0 0 1px 10px rgb(164, 164, 164) ;
+}
 .box:hover #first-ball{
     animation: firstBallMovement 15s 1 linear;
 
@@ -90,14 +96,7 @@ body {
 @keyframes firstBallMovement {
     /* up */
     0%{
-        transform: scaleX(1);
         top: 30px;
-        left: 50px;
-    }
-    /* up */
-    10%{
-
-        top:15px;
         left: 50px;
     }
     /* up */
@@ -201,53 +200,53 @@ body {
 @keyframes secondBallMovement {
     0%{
         bottom:30px;
-        right: 50px;
+        right: 40px;
     }
     25%{
         bottom:30px;
-        right: 50px;
+        right: 40px;
     }
     30%{
         bottom:30px;
-        right: 50px; 
+        right: 40px; 
     }
     50%{
         bottom:30px;
-        right: 50px;
+        right: 40px;
     }
     60%{
         bottom:30px;
-        right: 50px;
+        right: 40px;
 
     }
     /* up */
     70%{
         bottom: 100px;
-        right: 50px;
+        right: 40px;
     }
     /* down */
     75%{
         bottom:30px;
-        right: 50px;
+        right: 40px;
     }
     /* up */
     80%{
         bottom: 100px;
-        right: 50px;
+        right: 40px;
     }
     /* down */
     85%{
         bottom:30px;
-        right: 50px;
+        right: 40px;
     }
     /* up */
     90%{
         bottom: 100px;
-        right: 50px;
+        right: 40px;
     }
     /* down */
     100%{
         bottom:30px;
-        right: 50px;
+        right: 40px;
     }
 }
