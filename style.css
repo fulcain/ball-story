@@ -101,8 +101,9 @@ body {
     }
     /* up */
     15%{
-        top:15px;
-        left:100px;
+        top:30px;
+        left:87px;
+        transform: rotate(360deg);
     }
     19%{
         transform: scaleX(1);
